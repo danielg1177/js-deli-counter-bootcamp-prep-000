@@ -41,16 +41,14 @@ function currentLine(line) {
       
       i++
       
-    } else {
-      
-       let current = current + ` ${i + 1}. ${line[i]}`
-      
-    } else {
-      
-      return 
-    }
+    } 
       
     }
     
-  }
+  } else {
+      
+      return "The line is currently empty."
+    } 
+  
+  return current
 }
