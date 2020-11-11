@@ -10,7 +10,7 @@ function nowServing(line) {
   
    if (line.length > 0) {
      
-   let temp = `Currently serving ${line[0]}`
+   let temp = `Currently serving ${line[0]}.`
    
    line.shift()
    
