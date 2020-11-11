@@ -27,11 +27,12 @@ function nowServing(line) {
 
 function currentLine(line) {
   
-  if (line.length > 0) {
-    
+  
     let current = 'The line is currently:'
     
     let i = 0
+  
+  if (line.length > 0) {
     
     if (i < line.length - 1) {
     
