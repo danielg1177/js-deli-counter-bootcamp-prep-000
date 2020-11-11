@@ -10,7 +10,7 @@ function nowServing(line) {
   
    if (line.length > 0) {
      
-   console.log(line[0])
+   console.log(`Currently serving ${line[0]}`)
    
    return line.shift()
   } 
