@@ -34,19 +34,19 @@ function currentLine(line) {
   
   if (line.length > 0) {
     
-    if (i < line.length - 2) {
+    if (i === line.length - 1) {
     
-    while(i < line.length) {
+    current = current + ` ${i + 1}. ${line[i]}`
+      
+    } else {
+      
+      while(i < line.length) {
       
       current = current + ` ${i + 1}. ${line[i]},`
       
       i++
       
     } 
-      
-    } else {
-      
-       current = current + ` ${i + 1}. ${line[i]}`
       
     } 
     
