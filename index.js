@@ -32,7 +32,9 @@ function currentLine(line) {
     
     let i = 0
   
-  if (line.length > 0) {
+  if (line.length > 0) { 
+    
+    while(i < line.length) {
     
     if (i === line.length - 1) {
     
@@ -40,13 +42,11 @@ function currentLine(line) {
       
     } else {
       
-      while(i < line.length) {
-      
       current = current + ` ${i + 1}. ${line[i]},`
       
-      i++
-      
     } 
+    
+    i++
       
     } 
     
