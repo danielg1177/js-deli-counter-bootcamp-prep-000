@@ -43,7 +43,11 @@ function currentLine(line) {
       
     } 
       
-    }
+    } else {
+      
+       let current = current + ` ${i + 1}. ${line[i]}`
+      
+    } 
     
   } else {
       
