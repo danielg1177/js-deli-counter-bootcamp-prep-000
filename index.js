@@ -10,11 +10,9 @@ function nowServing(line) {
   
    if (line.length > 0) {
      
-   let temp = line[0]
+   console.log(line[0])
    
-   line.shift()
-   
-    return `${temp} is ready`
+   return line.shift()
   } 
   
   else {
