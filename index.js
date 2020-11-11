@@ -37,14 +37,17 @@ function currentLine(line) {
     
     while(i < line.length) {
       
-      let current = current + ` ${i + 1}. ${line[i]}`
+      let current = current + ` ${i + 1}. ${line[i]},`
       
       i++
       
     } else {
       
+       let current = current + ` ${i + 1}. ${line[i]}`
       
+    } else {
       
+      return 
     }
       
     }
