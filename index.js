@@ -9,12 +9,17 @@ function takeANumber(line, current) {
 function nowServing(line) {
   
    if (line.length > 0) {
+     
    let temp = line[0]
+   
    line.shift()
-    return temp
+   
+    return `${temp} is ready`
   } 
   
   else {
-    return ''
+    
+    return 'There is nobody waiting to be served!'
+    
   }
 }
