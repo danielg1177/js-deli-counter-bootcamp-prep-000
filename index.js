@@ -34,7 +34,7 @@ function currentLine(line) {
   
   if (line.length > 0) {
     
-    if (i < line.length - 1) {
+    if (i < line.length - 2) {
     
     while(i < line.length) {
       
