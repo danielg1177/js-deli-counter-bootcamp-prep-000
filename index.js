@@ -23,3 +23,31 @@ function nowServing(line) {
     
   }
 }
+
+
+function currentLine(line) {
+  
+  if (line.length > 0) {
+    
+    let current = 'The line is currently:'
+    
+    let i = 0
+    
+    if (i < line.length - 1) {
+    
+    while(i < line.length) {
+      
+      let current = current + ` ${i + 1}. ${line[i]}`
+      
+      i++
+      
+    } else {
+      
+      
+      
+    }
+      
+    }
+    
+  }
+}
